@@ -1,0 +1,23 @@
+.items1{grid-area: karun;}
+.items2{grid-area: web;}
+.items3{grid-area: dev;}
+.items4{grid-area: 4;}
+.items5{grid-area: 4;}
+.items6{grid-area: 3;}
+.containers{
+    display: grid;
+    grid-template-areas:
+    'karun karun karun karun'
+    'web dev dev dev'
+    '4 4 4 3';
+    gap: 20px;
+    background-color: white;
+    border: 2px solid antiquewhite;
+}
+.containers > div{
+    border: 2px solid lightblue;
+    padding: 20px;
+    background-color: bisque;
+    text-align: center;
+    color: rgb(163, 36, 121);
+}

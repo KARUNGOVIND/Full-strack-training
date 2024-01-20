@@ -1,0 +1,62 @@
+div{
+    border: 20px slategrey;
+    padding: 20px;
+  }
+  div{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+  }
+  .vera{
+    position: absolute;
+    left: 40%;
+  }
+  body {
+    font-family: 'Segoe UI';
+    margin: 20px;
+  }
+  h3,h4 {
+    color: rgb(21, 58, 58);
+
+
+  }
+  h2{
+    border-left: 100px;
+    color:chocolate;
+  }
+  p{
+    color:black;
+    margin-left: 20px;
+  }
+  .split{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    padding: 20px;
+  }
+  .right{
+    position: absolute;
+    right: 0;
+  }
+  .left{
+    left: 0;
+
+  }
+  .makeitcenter{
+    position: absolute;
+    left: 20%;
+  }
+  .new{
+    position: absolute;
+    margin: 20px;
+    padding: 30px;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    /* height: 40px; */
+    font-family: 'Gill Sans';
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
